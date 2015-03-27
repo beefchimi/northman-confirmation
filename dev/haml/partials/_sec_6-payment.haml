@@ -1,0 +1,51 @@
+/ Begin Template: Payment
+%table#tpl_payment.section{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "100%"}
+
+	%tr
+
+		%td.main_header{:align => "center", :valign => "middle"}
+
+			%table{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "100%"}
+				%tr
+					%td{:align => "center", :valign => "middle"}
+						%h1 Payment Details
+
+	%tr
+
+		%td.main_content{:align => "center", :valign => "middle"}
+
+			%table.subsection.last{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "100%"}
+
+				%tr
+					%td.col_left{:align => "left", :valign => "top", :colspan => "1", :width => "50%"}
+						%ul.list_fields
+							%li
+								%strong Transaction Date:
+								%span December 30, 2014
+							%li
+								%strong Transaction Time:
+								%span 07:26:27 AM
+							%li
+								%strong Payment Method:
+								%span Credit Card
+							%li
+								%strong Paid By:
+								%span Ryan Quesnel
+
+					%td.col_right{:align => "left", :valign => "top", :colspan => "1", :width => "50%"}
+						%ul.list_fields
+							%li
+								%strong Card Type:
+								%span Visa
+							%li
+								%strong Cardholder Name:
+								%span Ryan Quesnel
+							%li
+								%strong Card Number:
+								%span **** **** *** 9297
+							%li
+								%strong Expiry Date:
+								%span 08/18 (Aug 2018)
+						.rnd_single.orange
+							%strong Total Amount:
+							%span $661.28
